@@ -45,7 +45,7 @@ nav span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 64px;
+  padding: 20px;
   background: #fff;
   margin: 32px 0px;
   border-radius: 0px;
@@ -54,17 +54,17 @@ nav span {
 .hero-left h1 {
   font-size: 2.3rem;
   font-weight: 700;
-  margin: 0;
   color: #444;
-  margin-left: 30px;
+  margin: 10px 0px;
+  width:100%;
 }
 
 .hero-left h2 {
   color: #00aaff;
   font-size: 2rem;
   font-weight: 700;
-  margin: 18px 0;
-  margin-left: 30px;
+  margin: 10px 0px;
+  width:100%
 }
 
 .hero-left p {
@@ -77,12 +77,12 @@ nav span {
 .hero-left button {
   background: #00aaff;
   color: #fff;
-  padding: 16px 30px;
+  padding: 15px;
   border: none;
   border-radius: 10px;
   cursor: pointer;
   font-size: 1.15rem;
-  margin-left: 30px;
+  max-width:300px:
 }
 
 .hero-right img {
